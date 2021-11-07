@@ -1,0 +1,19 @@
+{
+    "name": "birzubir/belajar-php-composer-hello",
+    "description": "Library Composer Hello",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Birzubir\\Belajar\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "m.zubir",
+            "email": "birzubir78@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=8.0"
+    }
+}
